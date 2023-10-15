@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+if [ "$1" = "debug" ]; then
+    echo "BUILDING DEBUG"
+    nim js -d:debug codeblockplus.nim &&
+    google-closure-compiler --js codeblockplus.js --js_output_file codeblockplus.min.js
+else
+    echo "BUILDING RELEASE"
+    nim js -d:release codeblockplus.nim &&
+    google-closure-compiler --js codeblockplus.js --js_output_file codeblockplus.min.js
+    cargo install mdbook-admonish
+fi &&
+cp codeblockplus.min.js book/scripts/ &&
+cp codeblockplus.css book/theme/

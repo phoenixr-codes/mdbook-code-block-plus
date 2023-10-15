@@ -1,0 +1,31 @@
+.cbp-codeheader {
+  background-color: color-mix(in srgb, var(--bg), #777 20%);
+  color: var(--fg);
+  margin-bottom: -16px;
+  padding: .7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cbp-codeheader>span:not(.cbp-icon) {
+  font-size: .8em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cbp-codeheader>span,
+.cbp-codeheader>.cbp-langinfo>span {
+  padding: 0 5px;
+}
+
+.cbp-codeheader>span.cbp-filepath {
+  /*
+  display: inline;
+  position: relative;
+  float: right;
+  */
+  text-align: right;
+  /* width: 100%; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
