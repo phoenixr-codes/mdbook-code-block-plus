@@ -28,7 +28,7 @@ JavaScript highlighter.
 
 ### Add an Icon
 
-You can add [Font Awesome iconc](https://fontawesome.com/v4/icons/) to the code
+You can add [Font Awesome icons](https://fontawesome.com/v4/icons/) to the code
 block headers. Sadly mdBook uses version 4 which does not have many icons of
 programming languages.
 
