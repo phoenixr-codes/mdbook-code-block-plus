@@ -13,5 +13,5 @@
 ```
 ````
 
-[See the result in the book](https://phoenixr-codes.github.io/mdbook-code-block-plus).
+[See the result in the book](https://phoenixr-codes.github.io/mdbook-code-block-plus/).
 
