@@ -18,7 +18,7 @@
 ### Quick Install (CLI)
 
 ```shell,icon=usd
-echo "Enter the path where the JavaScript file should be put in (no trailing slash, period for current directory)" && read path_scripts && echo $(curl -sS https://raw.githubusercontent.com/phoenixr-codes/mdbook-code-block-plus/master/codeblockplus.min.js) > "$path_scripts/codeblockplus.min.js" && echo "Enter the path where the CSS file should be put in (no trailing slash, period for current directory)" && read path_stylehseet && echo $(curl -sS https://raw.githubusercontent.com/phoenixr-codes/mdbook-code-block-plus/master/codeblockplus.css) > "$path_stylesheet/codeblockplus.css"
+echo "---" && echo "Enter the path where the JavaScript file should be put in (no trailing slash, period for current directory)" && read path_scripts && echo $(curl -sS https://raw.githubusercontent.com/phoenixr-codes/mdbook-code-block-plus/master/codeblockplus.min.js) > "$path_scripts/codeblockplus.min.js" && echo "Enter the path where the CSS file should be put in (no trailing slash, period for current directory)" && read path_stylesheet && echo $(curl -sS https://raw.githubusercontent.com/phoenixr-codes/mdbook-code-block-plus/master/codeblockplus.css) > "$path_stylesheet/codeblockplus.css"
 ```
 
 
