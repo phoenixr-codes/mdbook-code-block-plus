@@ -13,5 +13,17 @@
 ```
 ````
 
-[See the result in the book](https://phoenixr-codes.github.io/mdbook-code-block-plus/).
+The [Documentation](https://phoenixr-codes.github.io/mdbook-code-block-plus)
+itself uses such code blocks so you can see them in action.
+
+
+## Changelog
+
+### 0.1.1 - 2023-10-16
+
+- 🔨 Always prefer `lang` class over `language-*` class (#1).
+
+### 0.1.0 - 2023-10-16
+
+_Initial release_
 

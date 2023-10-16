@@ -60,3 +60,8 @@ import this
 > </html>
 > ```
 
+
+```toml
+[player]
+name = "John"
+```

@@ -16,8 +16,7 @@ for code in codes:
   for class in splitWhitespace($code.className):
     var attr = split(class, '-', maxsplit = 1)
 
-    # initially set the language to the one defined in the code block
-    if attr[0] == "language":
+    if attr[0] == "language" and value_lang.isNone():
       value_lang = some(attr[1].toUpperAscii())
     
     attr = split(class, '=', maxsplit = 1)
