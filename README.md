@@ -1,5 +1,8 @@
 # Code Block Plus: Improved code blocks for mdBook
 
+> [!WARNING]
+> This project is now maintained [here](https://github.com/phoenixr-codes/mdbook-whichlang).
+
 ![Preview](./preview.jpg)
 
 
